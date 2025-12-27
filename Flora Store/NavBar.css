@@ -1,0 +1,62 @@
+/* Import a playful yet elegant font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display:wght@700&display=swap');
+
+nav {
+    /* A soft sky-blue to spring-green gradient background */
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 25px;
+    border-radius: 50px; /* Rounded pill shape */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 2px solid transparent;
+}
+
+/* Specific colors for each "flower" link */
+
+/* Home - Sunflower Yellow */
+nav a[href="Home.html"] {
+    color: #8a6d00;
+    background-color: #fff9ae;
+}
+nav a[href="Home.html"]:hover {
+    background-color: #ffeb3b;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(255, 235, 59, 0.4);
+}
+
+/* Flora - Rose Pink */
+nav a[href="Flora.html"] {
+    color: #902a4a;
+    background-color: #ffdce5;
+}
+nav a[href="Flora.html"]:hover {
+    background-color: #ff8fa3;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(255, 143, 163, 0.4);
+}
+
+/* Help - Lavender Purple */
+nav a[href="Help.html"] {
+    color: #483d8b;
+    background-color: #e6e6fa;
+}
+nav a[href="Help.html"]:hover {
+    background-color: #9370db;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(147, 112, 219, 0.4);
+}

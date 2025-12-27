@@ -1,0 +1,89 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* 5-Column Grid Layout */
+.flora-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual Flower Article */
+.flower-item {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.flower-item header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Image/Placeholder Area */
+.photo-box {
+    background-color: #e8e8e8;
+    height: 150px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Actions Area */
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.price {
+    font-weight: bold;
+    color: #2c7a7b;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.buy-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buy-btn:hover {
+    background-color: #357abd;
+}
